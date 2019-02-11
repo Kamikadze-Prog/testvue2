@@ -1,7 +1,7 @@
 <template>
 <div>
     <article class="ob-tile">
-      <div class="ob-wraper"> 
+      <div id="ob-wrapper"> 
         <h2 id="ob-tile__style">Доставка обедов с eda.ua</h2>
           <div id="ob-tile__text">
             <p>Пришло время обеда, а пойти некуда? Меню всех окрестных заведений приелось, да и времени не так много? 
@@ -38,36 +38,35 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style  lang="scss">
 
- .ob-wrapper {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
 .ob-tile {
-    width: 71.3%;
-    position: relative;
-    margin-top: 0;
-    background: #ff7733;
-    padding: 33px 20px 55px;
-    font-size: 14px;
-    margin-left: 10px;
-    margin-bottom: 20px;
+  width: 59.6%;
+  margin-left: 12.2%;
+  position: relative;
+  background: #f3661f;
+  padding: 33px 20px 55px;
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 
 #ob-tile__style {
 	padding-top:10px;
-     padding-bottom:10px;
-    font-size: 20px;
+  padding-bottom:10px;
+  font-size: 18px;
 }
 
 #ob-tile__text {
 	font-size: 14px;
-	line-height: 20px
+	line-height: 22px
+}
+
+.article__Images {
+  margin: 0 auto;
+  text-align: center;
 }
 
 .article__Images img {
-    margin-right: 5px;
-    height: 50px; 
-    width: 50px;
+  margin-right: 5px;
+  height: 50px; 
+  width: 50px;
 }
 </style>
