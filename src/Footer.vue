@@ -44,17 +44,16 @@ export default {
     background-color: #3e3e3e;
     color: #999;
     font-family: 'Open Sans',Arial;
-    -webkit-box-shadow: 0px -11px 65px 16px rgba(20,22,26,0.94);
-    -moz-box-shadow: 0px -11px 65px 16px rgba(20,22,26,0.94);
-    box-shadow: 0px -11px 65px 16px rgba(20,22,26,0.94);
+    box-shadow: 0px -20px 87px -14px rgba(0, 22, 26, 0.94);
+
 }
 .l-contacts {
-    border-bottom: 1px solid #5b5b5b;
-    margin: 20px 0 28px 0;
+    margin: 20px 0 38px 0;
+    padding-top: 1px;
 
 }
 
-.b-contacts, .b-copyright, .b-social {
+.b-contacts {
     margin: 0 auto;
     width: 1200px;
 }
@@ -74,8 +73,19 @@ export default {
     list-style-type: none;
 }
 
+.contacts__phone-number {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    line-height: 37px;
+    font-size: 24px;
+}
+
 .contacts__client {
-    width: 339px;
+    width: 340px;
+}
+.contacts__partners {
+    width: 340px;
 }
 
 .contacts__text {
