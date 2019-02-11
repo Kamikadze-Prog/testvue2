@@ -3,7 +3,7 @@
     <app-head></app-head>
     <app-nav></app-nav>
         <div class="l-search-address">
-          <div class="b-search-address" data-is-address="0">
+          <div class="b-search-address">
             <div class="search-address search-address_big ">
               <div class="search-address__marker">
                 <img src="#" alt="search">
@@ -73,7 +73,7 @@ body {
     padding: 0;
     border: 0;
     position: relative;
-    font-family: Arial,sans-serif;
+    font-family: 'Open Sans',Arial;
     font-size: 14px;
     color: #363636;
     line-height: 1.2;
@@ -98,7 +98,7 @@ a {
     font-size: 12px;
 }
 
- .search-address {
+.b-search-address, .search-address {
     margin: 0 auto;
     max-width: 1440px;
 }
@@ -137,6 +137,7 @@ a {
 }
 
 .b-search-address .search-address__title {
+    font-family: 'Open Sans',Arial;
     margin: 0 0 9px 0;
     color: #fff;
     font-size: 18px;
@@ -202,6 +203,7 @@ a {
 }
 
 .b-search-address .search-address__button {
+    
     position: absolute;
     right: 0;
     bottom: 0;
@@ -213,9 +215,10 @@ a {
 }
 
 .b-search-address .search-address__button-text {
+    font-family: 'Open Sans',Arial;
     color: #fff;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 29px;
 }
