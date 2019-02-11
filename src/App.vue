@@ -66,7 +66,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style  lang="scss">
 
 body {
     margin: 0;
@@ -84,6 +84,12 @@ body {
     vertical-align: baseline;
 } 
 
+
+ .ob-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 a {
     text-decoration: none;
     cursor: pointer;
@@ -92,7 +98,7 @@ a {
     font-size: 12px;
 }
 
-.b-search-address .search-address {
+ .search-address {
     margin: 0 auto;
     max-width: 1440px;
 }
