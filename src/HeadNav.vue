@@ -71,7 +71,7 @@ export default {
     padding-top: 6px;
     font-weight: 400px;
     vertical-align: middle;
-    font-family: "Open Sans";
+    font-family: 'Open Sans',Arial;
     text-overflow: ellipsis;
     overflow: hidden;
     line-height: 12px;
