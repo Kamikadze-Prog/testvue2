@@ -82,6 +82,7 @@ h1 {
 }
 
 #banner-Text1 {
+    font-family: 'Open Sans',Arial;
     display: inline-block;
     font-size: 36px;
     font-weight: 700;
@@ -93,6 +94,7 @@ h1 {
 }
 
 #banner-Text2 {
+    font-family: 'Open Sans',Arial;
     display: inline-block;
     font-size: 28px;
     color: #000000;
