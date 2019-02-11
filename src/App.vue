@@ -35,10 +35,9 @@
         </div>
       </div>
       <app-banner></app-banner>
-
-      
-
-  <router-view/>
+      <app-content></app-content>
+      <app-article></app-article>
+      <app-footer></app-footer>
   </div>
 </template>
 
@@ -46,6 +45,9 @@
 import Head from './Head.vue'
 import HeadNav from './HeadNav.vue'
 import Banner from './Banner.vue'
+import ContentList from './ContentList.vue'
+import Article from './Article.vue'
+import Footer from './Footer.vue'
 
 export default {
   data () {
@@ -56,7 +58,10 @@ export default {
     components: {
       appHead: Head,
       appNav: HeadNav,
-      appBanner: Banner
+      appBanner: Banner,
+      appContent: ContentList,
+      appArticle: Article,
+      appFooter: Footer
     }
 }
 </script>
@@ -67,7 +72,7 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
-	  position: relative;
+    position: relative;
     font-family: Arial,sans-serif;
     font-size: 14px;
     color: #363636;

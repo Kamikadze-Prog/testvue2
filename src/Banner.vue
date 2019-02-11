@@ -19,7 +19,7 @@
 export default {
   data () {
       return {
-
+        path: '../assets/Super-Meat-Boy.png',
       }
   }
 }
@@ -29,17 +29,18 @@ export default {
 <style  lang="scss">
 
 .banner-container {
-    background-position: 0 10%;
+    background-position: 0 18%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 270px;
     width: 100%;
     position: relative;
     margin: 0 0 10px 0;
 }
 
 .banner-container {
-    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/02/66/74/52578b688503f53.jpg);
+    background-image: url(http://doka-vkusa.ru/i/banner-img-1.jpg);
+    
 }
 
 .banner-breadcrumbs {
