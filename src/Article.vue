@@ -39,6 +39,7 @@ export default {
 <style  lang="scss">
 
 .ob-tile {
+  font-family: 'Open Sans',Arial;
   width: 59.6%;
   margin-left: 12.2%;
   position: relative;
@@ -55,6 +56,7 @@ export default {
 }
 
 #ob-tile__text {
+  
 	font-size: 14px;
 	line-height: 22px
 }
