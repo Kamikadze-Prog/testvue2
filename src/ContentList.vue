@@ -131,7 +131,7 @@ export default {
     outline: 0;
     transition: box-shadow .8s;
     color: #333;
-    font-family: "Open Sans",Arial;
+    font-family: 'Open Sans',Arial;
 }
 
 .b-restaurant-item__content {
@@ -144,7 +144,7 @@ export default {
     display: inline-block;
     vertical-align: top;
     font-size: 14px;
-    font-family: "Open Sans";
+    font-family: 'Open Sans',Arial;
     font-weight: 400;
     line-height: 20px;
 }
@@ -194,7 +194,7 @@ export default {
 }
 
 .b-restaurant-item__item-column {
-    font-family: "Open Sans";
+    font-family: 'Open Sans',Arial;
     line-height: 21px;
 }
 
@@ -214,9 +214,8 @@ export default {
     bottom: 2px;
     margin: 0 2px;
     flex: 1 0 auto;
-    -webkit-flex: 1 0 auto;
-    -ms-flex: 1 0 auto;
     min-width: 0;
+    font-family: 'Open Sans',Arial;
     border-bottom: 1px solid #dedede;
 }
 
