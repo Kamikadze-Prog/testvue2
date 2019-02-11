@@ -37,6 +37,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style  lang="scss">
 .ob-header {
+    font-family: 'Open Sans',Arial;
     background: #fff;
     padding: 0 30px;
     height: 70px;
