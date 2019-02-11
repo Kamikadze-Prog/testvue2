@@ -92,6 +92,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style  lang="scss">
+
 .ob-restaurant-list {
     margin-top: 30px;
 }
@@ -109,7 +110,7 @@ export default {
 }
 
 .ob-restaurant-list__list {
-    width: 81%;
+    width: 81.5%;
     display: inline-block;
     vertical-align: top;
     margin-right: 1%;
@@ -139,7 +140,7 @@ export default {
 }
 
 .ob-restaurant-list__sup-col {
-    width: 18%;
+    width: 17.5%;
     display: inline-block;
     vertical-align: top;
     font-size: 14px;
