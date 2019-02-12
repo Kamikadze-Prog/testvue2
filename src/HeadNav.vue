@@ -4,14 +4,14 @@
         <div class="ob-wraper">
                 <ul class="ob-nav__list ">
                     <li class="ob-nav__item">
-                            <a href="#" class="ob-nav__link" data-route="all" title="<Бизнеc ланч">
-                            <span class="ob-nav__text">{{nav_lunch}}</span>
-                        </a>
+                        <router-link  class="ob-nav__link" title="<Бизнеc ланч" to="/">
+                        <span class="ob-nav__text">{{nav_lunch}}</span>
+                        </router-link>
                     </li>
                     <li class="ob-nav__item ob-nav__item-active">
-                        <a href="#" class="ob-nav__link" data-route="20" title="Ресторан">
+                        <router-link class="ob-nav__link" title="Ресторан" to="/Restaurant">
                             <span class="ob-nav__text"> {{nav_restaurant}}</span>
-                        </a>
+                        </router-link>
                     </li>
                 </ul>
         </div>
