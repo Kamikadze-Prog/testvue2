@@ -61,13 +61,13 @@
                         <div class="ob-sort-list__wrapper">
                             <div class="ob-sort-list__title-one">Сортировка</div>
                             <div class="js-sort-list-checkbox">
-                                <label class="ob-sort-list__label">
-                                    <input type="radio" class="ob-radio__field" name="sort-item" data-sort="rating" value="rating" checked="">
-                                    <span class="ob-radio__text">по рейтингу</span>
+                                <label class='ob-sort-list__label'>
+                                    <input type='radio' class='ob-radio__field' name='sort-item' data-sort='rating' value='rating' checked="" v-model="sort">
+                                    <span class='ob-radio__text'>по рейтингу</span>
                                 </label>
-                                <label class="ob-sort-list__label">
-                                    <input type="radio" class="ob-radio__field" data-sort="min_sum" name="sort-item" value="min_sum">
-                                    <span class="ob-radio__text">по минимальной сумме</span>
+                                <label class='ob-sort-list__label'>
+                                    <input type='radio' class='ob-radio__field' data-sort='min_sum' name= 'sort-item' value='min_sum' v-model="sort">
+                                    <span class='ob-radio__text'>по минимальной сумме</span>
                                 </label>
                             </div>
                         </div>
@@ -81,13 +81,27 @@
 
 <script>
 
+// eslint-disable-next-line
+import axios from 'axios'
+
 export default {
   data () {
       return {
- 
+          sort: 'min_sum',
+          miles: []
       }
+  },
+  created () { 
+      this.axios.get('https://api.coindesk.com/v1/bpi/currentprice.json')
+      .then(response => {
+          this.miles = response.data
+            console.log('data', response.data)
+            })
+    .catch(e =>  {
+        console.log('Error', e) 
+    })
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
