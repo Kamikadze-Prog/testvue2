@@ -38,6 +38,7 @@
       <app-content></app-content>
       <app-article></app-article>
       <app-footer></app-footer>
+      <router-view></router-view>
   </div>
 </template>
 
@@ -48,6 +49,7 @@ import Banner from './Banner.vue'
 import ContentList from './ContentList.vue'
 import Article from './Article.vue'
 import Footer from './Footer.vue'
+import Restaurant from './Restaurant.vue'
 
 export default {
   data () {
@@ -62,6 +64,7 @@ export default {
       appContent: ContentList,
       appArticle: Article,
       appFooter: Footer
+      
     }
 }
 </script>
